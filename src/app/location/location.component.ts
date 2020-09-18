@@ -1,20 +1,19 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
-import { products } from '../products';
+import { products } from "../products";
 
 @Component({
-  selector: 'app-product-list',
-  templateUrl: './location.component.html',
-  styleUrls: ['./location.component.css']
+  selector: "app-location",
+  templateUrl: "./location.component.html",
+  styleUrls: ["./location.component.css"]
 })
 export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
+    window.alert("The product has been shared!");
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
