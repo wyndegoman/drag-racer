@@ -1,3 +1,3 @@
-# angular-ljpell
+# wander-take
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ljpell)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/wander-take)
