@@ -1,12 +1,14 @@
 
 .item-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
 }
 .mat-card {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 30%;
   margin: 5px;
   margin-top: 10px;
   margin-left: 0px;
