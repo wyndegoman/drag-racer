@@ -1,7 +1,22 @@
 
+.item-container {
+  display: flex;
+  flex-direction: row;
+}
+.mat-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
+.mat-card-content {
+  display: flex;
+  flex: 1;
+}
+
+.mat-card-actions button {
+  margin: 2px;
+}

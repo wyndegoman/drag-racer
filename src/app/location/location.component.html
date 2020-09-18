@@ -1,20 +1,13 @@
-<div layout="row">
-  <div flex="60">
-    Location
-  </div>
-  <div flex="60">
-    Food
-  </div>
-  <div flex="40">
-    <div layout="column">
-      Controls
-    </div>
-  </div>
+<div class="item-container">
+<mat-card class="mat-elevation-z5" *ngFor="let item of contents">
+  <mat-card-header>
+    <mat-card-title>{{ item.name }}</mat-card-title>
+    <mat-card-subtitle>A thing you can pick up</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>{{ item.description }}</mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-button>Take</button>
+    <button mat-button>Use</button>
+  </mat-card-actions>
+</mat-card>
 </div>
-
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
--->
